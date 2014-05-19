@@ -22,3 +22,17 @@ There's some backtracking if the implementation found raises an error
 # Warnings
 
 This is insane.
+
+# Example
+
+```ruby
+class MyInsaneObject
+  include NoMoreMissing
+end
+
+object = MyInsaneObject.new
+res = object.add([])
+puts "Response: #{res.inspect}"
+puts "Object: #{object.inspect}"
+puts "done!"
+```
