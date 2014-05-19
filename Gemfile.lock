@@ -1,4 +1,5 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     addressable (2.3.5)
     capybara (2.2.1)
