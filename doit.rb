@@ -94,9 +94,6 @@ module NoMoreMissing
       end
     end
   end
-
-  def list_instance_variables (method_body)
-  end
 end
 
 class MyInsaneObject
