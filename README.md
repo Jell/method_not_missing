@@ -8,17 +8,6 @@ are also declared on the fly.
 There's some backtracking if the implementation found raises an error
 (like stack overflows) or if a nested method lookup fails.
 
-# Future work:
-
-- Type Safety: since we get the arity of the requested function, we
-  could filter out the ones with the wrong number of argument. This is
-  implemented with exception-driven backtracking on ArgumentErrors
-  right now.
-
-- Make it a gem
-
-- Enterprise
-
 # Warnings
 
 This is insane.
@@ -40,3 +29,14 @@ puts "Response: #{res.inspect}"
 puts "Object: #{object.inspect}"
 puts "done!"
 ```
+
+# Future work:
+
+- Type Safety: since we get the arity of the requested function, we
+  could filter out the ones with the wrong number of argument. This is
+  implemented with exception-driven backtracking on ArgumentErrors
+  right now.
+
+- Make it a gem
+
+- Enterprise
