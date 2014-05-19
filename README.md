@@ -25,6 +25,10 @@ This is insane.
 
 # Example
 
+You can run an example by running `ruby doit.rb`.
+
+This is the interesting part:
+
 ```ruby
 class MyInsaneObject
   include NoMoreMissing
