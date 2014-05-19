@@ -8,6 +8,9 @@ are also declared on the fly.
 There's some backtracking if the implementation found raises an error
 (like stack overflows) or if a nested method lookup fails.
 
+## External dependencies
+- PhantomJS ( `brew install phantomjs` on OSX )
+
 # Warnings
 
 This is insane.
