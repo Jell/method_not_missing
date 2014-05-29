@@ -1,6 +1,5 @@
-[![Build Status](https://travis-ci.org/Jell/method_not_missing.svg?branch=master)](https://travis-ci.org/Jell/method_not_missing)
-
 # Method *not* missing
+[![Build Status](https://travis-ci.org/Jell/method_not_missing.svg?branch=master)](https://travis-ci.org/Jell/method_not_missing)
 
 By including the module `MethodNotMissing`, an object's
 `method_missing` will be replaced by googling to rdoc and implemented
