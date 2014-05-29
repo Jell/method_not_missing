@@ -4,7 +4,7 @@
 Implements missing methods on the fly by googling their implementation
 on rubydoc.info. Because Ruby.
 
-Intance variables are added when needed and missing classes are also
+Instance variables are added when needed and missing classes are also
 declared at runtime.
 
 There's some backtracking if the implementation found raises an error
