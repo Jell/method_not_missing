@@ -1,10 +1,11 @@
 # Method *not* missing
 [![Build Status](https://travis-ci.org/Jell/method_not_missing.svg?branch=master)](https://travis-ci.org/Jell/method_not_missing)
 
-By including the module `MethodNotMissing`, an object's
-`method_missing` will be replaced by googling to rdoc and implemented
-on the fly. Instance variables are added where missing and missing
-constants are also declared on the fly.
+Implements missing methods on the fly by googling its implementation on
+rubydoc.info. Because Ruby.
+
+Intance variables are added when needed and missing classes are also
+declared at runtime.
 
 There's some backtracking if the implementation found raises an error
 (like stack overflows) or if a nested method lookup fails.
@@ -19,7 +20,7 @@ gem install method_not_missing
 
 - PhantomJS ( `brew install phantomjs` on OSX )
 
-# Warnings
+# Warning
 
 This is insane.
 
