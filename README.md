@@ -1,5 +1,5 @@
 # Method *not* missing
-[![Build Status](https://travis-ci.org/Jell/method_not_missing.svg?branch=master)](https://travis-ci.org/Jell/method_not_missing) [![Gem Version](https://badge.fury.io/rb/method_not_missing.svg)](http://badge.fury.io/rb/method_not_missing)
+[![Build Status](https://travis-ci.org/Jell/method_not_missing.svg?branch=master)](https://travis-ci.org/Jell/method_not_missing) [![Gem Version](https://badge.fury.io/rb/method_not_missing.svg)](http://badge.fury.io/rb/method_not_missing)[![Code Climate](https://codeclimate.com/github/Jell/method_not_missing.png)](https://codeclimate.com/github/Jell/method_not_missing)
 
 Implements missing methods on the fly by googling their implementation
 on rubydoc.info. Because Ruby.
