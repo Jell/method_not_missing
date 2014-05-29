@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Jell/method_not_missing.svg?branch=master)](https://travis-ci.org/Jell/method_not_missing)
+
 # Method *not* missing
 
 By including the module `MethodNotMissing`, an object's
