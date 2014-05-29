@@ -1,8 +1,8 @@
 # Method *not* missing
 [![Build Status](https://travis-ci.org/Jell/method_not_missing.svg?branch=master)](https://travis-ci.org/Jell/method_not_missing)
 
-Implements missing methods on the fly by googling its implementation on
-rubydoc.info. Because Ruby.
+Implements missing methods on the fly by googling their implementation
+on rubydoc.info. Because Ruby.
 
 Intance variables are added when needed and missing classes are also
 declared at runtime.
