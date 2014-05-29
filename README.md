@@ -20,10 +20,6 @@ gem install method_not_missing
 
 - PhantomJS ( `brew install phantomjs` on OSX )
 
-# Warning
-
-This is insane.
-
 # Example
 
 ```ruby
